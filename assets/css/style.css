@@ -1,0 +1,49 @@
+.form-control, .btn, .dropdown-menu, .input-group-text{
+    border-radius: 0 !important;
+}
+.navbar{
+    position: fixed;
+    z-index: 11111;
+    width: 100%;
+    top: 0;
+}
+.fullheight{
+    min-height: calc(100vh - 72px);
+}
+body{
+    overflow-x: hidden;
+    background-color: #FAFAFA;
+}
+.hback{
+    height: 90vh;
+    filter:brightness(70%);
+}
+.table-noborder td{
+    border: none !important;
+}
+.hback~h1{
+    position: absolute;
+    top:60vh;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+.title{
+    position: absolute;
+    top:35vh;
+    margin-top: 90px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-family: initial;
+}
+.title h1{
+    font-size: 80px;
+}
+.title span{
+    font-size: 20px;
+}
+.nav-link.active{
+    padding-bottom: 4px;
+    border-bottom: 1px solid black;
+}
